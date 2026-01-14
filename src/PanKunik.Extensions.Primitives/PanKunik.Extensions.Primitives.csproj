@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 	  <PackageId>PanKunik.Extensions.Primitives</PackageId>
-	  <Version>0.1.0</Version>
+	  <Version>0.2.0</Version>
 	  <Authors>Patryk Kunicki</Authors>
 	  <Description>Extension methods for primitive types</Description>
 	  <PackageProjectUrl>https://github.com/pankunik/PanKunik.Extensions.Primitives</PackageProjectUrl>
