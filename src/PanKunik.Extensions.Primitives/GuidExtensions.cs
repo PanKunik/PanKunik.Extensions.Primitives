@@ -2,9 +2,12 @@
 
 public static class GuidExtensions
 {
-    public static bool IsEmpty(this Guid guid)
-        => guid == Guid.Empty;
+    extension(Guid guid)
+    {
+        public bool IsEmpty()
+            => guid == Guid.Empty;
 
-    public static bool IsNotEmpty(this Guid guid)
-        => !IsEmpty(guid);
+        public bool IsNotEmpty()
+            => !guid.IsEmpty();
+    }
 }
